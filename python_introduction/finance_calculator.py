@@ -1,10 +1,10 @@
 #requesting for finanicial details from user
 
 monthly_income = float(input("Enter your monthly income:"))
-total_manual_expenses = float(input("Enter your total monthly expenses:"))
+monthly_expenses = float(input("Enter your total monthly expenses:"))
 
 # calculate monthly savings
-monthly_savings = monthly_income - total_manual_expenses
+monthly_savings = monthly_income - monthly_expenses
 
 # projecting annual savings
 # assuming an annual interest rate of 5%
