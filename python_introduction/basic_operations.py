@@ -5,6 +5,6 @@ sum = number1 + number2
 difference = number1 - number2
 product = number1 * number2
 
-print("Sum " , "of " , number1 , " and " ,  number2 , " is ", sum)
-print("Difference " , "of " , number1 , " and " ,  number2 , " is ", difference)
-print("Product " , "of " , number1 , " and " ,  number2 , " is ", product)
+print("Addition " , "of " , number1 , " and " ,  number2 , " is ", sum)
+print("Subtraction " , "of " , number1 , " and " ,  number2 , " is ", difference)
+print("Multiplication " , "of " , number1 , " and " ,  number2 , " is ", product)
