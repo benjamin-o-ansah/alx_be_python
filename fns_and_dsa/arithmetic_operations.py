@@ -10,8 +10,10 @@ def perform_operation(num1, num2, operation):
     def division():
         if num2 == 0:
             return "Error: Not divisible by zero"
-        else:
+        elif num2!= 0:
             return num1 / num2
+        else:
+            return "Error: Invalid input"
     match operation:
         case "add":
             return addition()
