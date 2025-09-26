@@ -5,7 +5,7 @@ from datetime import datetime, timedelta
 now = datetime.now()
 def display_current_datetime(): 
     current_date = now
-    print("Current date and time:", current_date)
+    print(f"Current date and time: {current_date.date()} {current_date.hour}:{current_date.minute}:{current_date.second}")
 
 
 def calculate_future_date(days_to_add):
