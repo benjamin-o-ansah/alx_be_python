@@ -15,4 +15,4 @@ match temp_type:
         converted_temp = convert_to_celsius(temperature)
         print(f"{temperature}°F is {converted_temp}°C")
     case _:
-        print("Invalid input. Please enter 'C' for Celsius or 'F' for Fahrenheit.")
+        print("Invalid temperature. Please enter a numeric value.")
