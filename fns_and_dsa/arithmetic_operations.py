@@ -8,10 +8,10 @@ def perform_operation(num1, num2, operation):
     def multiplication():
         return num1 * num2
     def division():
-        if num2 != 0:
-            return num1 / num2
+        if num2 == 0:
+            return "Error: Not divisible by zero"
         else:
-            return "Error: Not divisible byy zero"
+            return num1 / num2
     match operation:
         case "add":
             return addition()
