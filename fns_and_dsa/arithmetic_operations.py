@@ -1,6 +1,6 @@
 #script to perform basic arithmetic operations
 
-def perform_operation(num1, num2, operation=None):
+def perform_operation(num1, num2, operation):
     def addition():
         return num1 + num2
     def subtraction():
