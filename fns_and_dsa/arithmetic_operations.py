@@ -1,17 +1,17 @@
 #script to perform basic arithmetic operations
 
-def arithmetic_operations(a=0, b=0, operation=None):
+def perform_operations(num1, num2, operation=None):
     def addition():
-        return a + b
+        return num1 + num2
     def subtraction():
-        return a - b
+        return num1 - num2
     def multiplication():
-        return a * b
+        return num1 * num2
     def division():
-        if b != 0:
-            return a / b
+        if num2 != 0:
+            return num1 / num2
         else:
-            return "Error: Not divisible by zero"
+            return "Error: Not divisible byy zero"
     match operation:
         case "add":
             return addition()
