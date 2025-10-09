@@ -23,18 +23,18 @@ class BankAccount:
         print(f"Deposited: ${amount} ")
     
     def withdraw(self,amount):
-        try:
+        # try:
             
             if self.initialBalance > amount:
                 self.initialBalance -= amount
                 self.accountBalance -= amount 
                 print(f"Withdrew: ${amount}")
             else:
-                print("Sorry! Your account balance does not permit you to withdraw such balance!")
-        except Exception as e:
-            print("Sorry this calculation is out of bounds!")
-        finally:
-            print("Thank you for choosing to bank with us!")
+                print("Insufficient Funds.")
+        # except Exception as e:
+        #     print("Sorry this calculation is out of bounds!")
+        # finally:
+        #     print("Thank you for choosing to bank with us!")
             
     def display_balance(self):
         print(f"Current Balance: ${self.accountBalance}")
