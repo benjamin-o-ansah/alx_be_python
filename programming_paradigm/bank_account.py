@@ -20,7 +20,7 @@ class BankAccount:
     def deposit(self,amount):
         self.initialBalance +=amount
         self.accountBalance +=amount
-        print(f"You have successfully deposited an amount of {amount} ")
+        print(f"Deposited: ${amount} ")
     
     def withdraw(self,amount):
         try:
@@ -28,7 +28,7 @@ class BankAccount:
             if self.initialBalance > amount:
                 self.initialBalance -= amount
                 self.accountBalance -= amount 
-                print(f"You have successfully withdrawn {amount} from your account")
+                print(f"Withdrew: ${amount}")
             else:
                 print("Sorry! Your account balance does not permit you to withdraw such balance!")
         except Exception as e:
