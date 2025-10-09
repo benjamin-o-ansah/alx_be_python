@@ -26,11 +26,10 @@ class BankAccount:
         # try:
             
             if self.initialBalance > amount:
-                self.initialBalance -= amount
-                self.accountBalance -= amount 
+                return True 
                 # print(f"Withdrew: ${amount}")
             else:
-                print("Insufficient Funds.")
+               return False
         # except Exception as e:
         #     print("Sorry this calculation is out of bounds!")
         # finally:
