@@ -36,4 +36,4 @@ class BankAccount:
         #     print("Thank you for choosing to bank with us!")
             
     def display_balance(self):
-         print (f"Current Balance: ${self.accountBalance}")
+         print (f"Current Balance: ${self.accountBalance}.00")
