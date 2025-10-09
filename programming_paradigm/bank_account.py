@@ -25,15 +25,15 @@ class BankAccount:
     def withdraw(self,amount):
         # try:
             
-            if self.initialBalance > amount:
-                return True 
+        if self.accountBalance >= amount:
+            return True 
                 # print(f"Withdrew: ${amount}")
-            else:
-               return False
+        else:
+            return False
         # except Exception as e:
         #     print("Sorry this calculation is out of bounds!")
         # finally:
         #     print("Thank you for choosing to bank with us!")
             
     def display_balance(self):
-        print(f"Current Balance: ${self.accountBalance}")
+         print (f"Current Balance: ${self.accountBalance}")
